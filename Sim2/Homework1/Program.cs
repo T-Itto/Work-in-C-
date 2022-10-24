@@ -47,7 +47,7 @@ int number = Prompt("Введите число: "); // для универсал
                                         // переменную на замену 1000 и добавить метод выбора нужного нам числа 
 bool ValidateNumber(int num)
 {
-    bool condition = num > 9 && num < DozensMultiplied(NumberDozens(number)); // Диапазон чисел введённого значения
+    bool condition = num > 99 && num < DozensMultiplied(NumberDozens(number)); // Диапазон чисел введённого значения
                                                                                // для универсальности можно добавить переменную на замену 1000
     if (condition)
     {
