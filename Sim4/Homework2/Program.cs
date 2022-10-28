@@ -32,12 +32,10 @@ int NumberDozens(int number)
     return i;
 }
 
-int value = Prompt("Введите число: ");
-
 int SumValue (int number)
 {
     int sum = 0;
-    while (number >= NumberDozens(value))
+    while (number >= NumberDozens(number))
     {
         int value = 0;
         value = value + number % 10;
@@ -46,5 +44,7 @@ int SumValue (int number)
     }
     return sum;
 }
+
+int value = Prompt("Введите число: ");
 
 System.Console.WriteLine(SumValue(value));
