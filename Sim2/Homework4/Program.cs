@@ -4,8 +4,8 @@
 int Prompt(string message)
 {
     Console.WriteLine(message);
-    int namber = Convert.ToInt32(Console.ReadLine());
-    return namber;
+    int answer = Convert.ToInt32(Console.ReadLine());
+    return answer;
 }
 
 
