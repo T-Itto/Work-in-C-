@@ -14,7 +14,7 @@ int Prompt(string msg)
 
 void Even(int M, int N)
 {
-    if (N <= 0)
+    if (N <= M)
     {
         return;
     }
