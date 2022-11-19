@@ -18,15 +18,12 @@ void Even(int M, int N)
     {
         return;
     }
-
-    if (M < N)
+    Even(M, N - 1);
+    if (N % 2 == 0)
     {
-        Even(M, N - 1);
-        if (N % 2 == 0)
-        {
-            System.Console.Write(N + " ");
-        }
+        System.Console.Write(N + " ");
     }
+
 }
 
 int M = Prompt("Введите начало диапозона М: ");
