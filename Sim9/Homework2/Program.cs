@@ -23,9 +23,9 @@ void Even(int M, int N, int sum)
     Even(M, N - 1, sum);
 }
 
-int M = Prompt("Введите начало диапозона М: ");
-int N = Prompt("Введите конец диапозона N: ");
+int m = Prompt("Введите начало диапозона М: ");
+int n = Prompt("Введите конец диапозона N: ");
 
 System.Console.WriteLine();
-Even(M, N, 0);
+Even(m, n, 0);
 System.Console.WriteLine();
